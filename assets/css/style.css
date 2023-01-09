@@ -329,6 +329,15 @@ footer a {
     background-color: grey;
     text-transform: none;
   }
+  section input {
+    padding: 8px 14vw 9px 10px;
+    font-size: 0.8em;
+  }
+  section button {
+    padding: 8px 20px;
+    font-weight: normal;
+    font-size: 0.8em;
+  }
   footer {
     padding-left: 20vw;
     padding-right: 20vw;
