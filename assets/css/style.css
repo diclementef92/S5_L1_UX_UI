@@ -199,6 +199,17 @@ footer {
 footer a {
   color: fuchsia;
 }
+.logo_html5 {
+  width: fit-content;
+  border: 2px solid rgb(111, 55, 135);
+}
+.logo_html5 img {
+  width: 50px;
+  vertical-align: middle;
+  border: 2px solid rgb(57, 156, 255);
+  padding: 2px;
+}
+
 @media screen and (max-width: 450px) {
   header ul {
     display: flex;
@@ -222,6 +233,7 @@ footer a {
   header nav {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   table {
     margin: 3em auto 2em auto;
@@ -237,7 +249,7 @@ footer a {
       rgba(3, 109, 134, 1) 68%
     );
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: normal;
     color: white;
     box-shadow: 0 3px 3px #444;
     padding: 1em;
@@ -266,6 +278,9 @@ footer a {
     display: flex;
     align-items: center;
   }
+  header nav li a {
+    font-weight: normal;
+  }
   body {
     line-height: 1.8;
     padding-left: 5vw;
@@ -273,5 +288,9 @@ footer a {
   }
   table {
     margin: 3em auto 2em auto;
+  }
+
+  aside div {
+    display: inline-block;
   }
 }
