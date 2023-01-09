@@ -209,7 +209,7 @@ footer a {
   border: 2px solid rgb(57, 156, 255);
   padding: 2px;
 }
-
+/* mobile correzzione  */
 @media screen and (max-width: 450px) {
   header ul {
     display: flex;
@@ -220,6 +220,10 @@ footer a {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  section h2 {
+    background-color: grey;
+    text-transform: none;
   }
 }
 
@@ -237,6 +241,10 @@ footer a {
   }
   table {
     margin: 3em auto 2em auto;
+  }
+  section h2 {
+    background-color: grey;
+    text-transform: none;
   }
 }
 /* layout Desktop  */
@@ -274,12 +282,14 @@ footer a {
     justify-content: end;
     align-items: center;
   }
+
   header nav {
     display: flex;
     align-items: center;
   }
   header nav li a {
     font-weight: normal;
+    padding-left: 10px;
   }
   body {
     line-height: 1.8;
@@ -288,9 +298,32 @@ footer a {
   }
   table {
     margin: 3em auto 2em auto;
+    width: 80%;
   }
 
+  aside {
+    /* text-align: left; */
+    padding-bottom: 20vh;
+  }
   aside div {
-    display: inline-block;
+  }
+  aside h2 {
+    margin-top: 1em;
+  }
+  iframe {
+    width: 50%;
+    height: 25vh;
+    margin-bottom: 0px;
+  }
+  section {
+    width: 48%;
+    height: 25vh;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    float: right;
+  }
+  section h2 {
+    background-color: grey;
+    text-transform: none;
   }
 }
