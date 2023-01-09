@@ -303,12 +303,15 @@ footer a {
 
   aside {
     /* text-align: left; */
-    padding-bottom: 20vh;
-  }
-  aside div {
+    padding-bottom: 2vh;
   }
   aside h2 {
     margin-top: 1em;
+    /* justify-self: center;
+      align-items: baseline; */
+  }
+  aside div {
+    display: inline-block;
   }
   iframe {
     width: 50%;
@@ -325,5 +328,9 @@ footer a {
   section h2 {
     background-color: grey;
     text-transform: none;
+  }
+  footer {
+    padding-left: 20vw;
+    padding-right: 20vw;
   }
 }
